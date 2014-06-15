@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBD73AD71944E21F00BF58FC /* postViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD73AD61944E21F00BF58FC /* postViewController.swift */; };
+		CBD73ADB1944EABA00BF58FC /* globalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD73ADA1944EABA00BF58FC /* globalValue.swift */; };
 		CBF10001193FE686004C97E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1FFFF193FE686004C97E3 /* Main.storyboard */; };
 		CBF10003193FE686004C97E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF10002193FE686004C97E3 /* Images.xcassets */; };
 		CBF1000F193FE686004C97E3 /* swiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1000E193FE686004C97E3 /* swiftAppTests.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBD73AD61944E21F00BF58FC /* postViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postViewController.swift; sourceTree = "<group>"; };
+		CBD73ADA1944EABA00BF58FC /* globalValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = globalValue.swift; path = ../globalValue.swift; sourceTree = "<group>"; };
 		CBF10000193FE686004C97E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBF10002193FE686004C97E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBF10008193FE686004C97E3 /* swiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,8 @@
 				CBF1FFFB193FE686004C97E3 /* AppDelegate.swift */,
 				CBF1FFFD193FE686004C97E3 /* ViewController.swift */,
 				CBF1FFFF193FE686004C97E3 /* Main.storyboard */,
+				CBD73AD61944E21F00BF58FC /* postViewController.swift */,
+				CBD73ADA1944EABA00BF58FC /* globalValue.swift */,
 				CBF10002193FE686004C97E3 /* Images.xcassets */,
 				CBF1FFF9193FE686004C97E3 /* Supporting Files */,
 			);
@@ -216,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD73AD71944E21F00BF58FC /* postViewController.swift in Sources */,
 				CBF1FFFE193FE686004C97E3 /* ViewController.swift in Sources */,
+				CBD73ADB1944EABA00BF58FC /* globalValue.swift in Sources */,
 				CBF1FFFC193FE686004C97E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +396,7 @@
 				CBF10014193FE686004C97E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF10015193FE686004C97E3 /* Build configuration list for PBXNativeTarget "swiftAppTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +405,7 @@
 				CBF10017193FE686004C97E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF1FFF1193FE686004C97E3 /* Build configuration list for PBXProject "swiftApp" */ = {
 			isa = XCConfigurationList;
